@@ -1,0 +1,21 @@
+{
+  "name": "makerspace-checklist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "browserify index.js -o ./public/js/bundle.js",
+    "start": "npm run-script build && node server.js"
+  },
+  "author": "willdavsmith",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  }
+}
